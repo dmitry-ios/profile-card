@@ -1,15 +1,23 @@
 <template>
-  <article>
-    <img v-bind:src="avatar" v-bind:alt="alternative" width="96" height="96">
-    <p>{{username}} <span>{{age}}</span></p>
-    <p>{{city}}</p>
-    <dl>
-      <dt>Followers</dt>
-      <dd>{{followers}}</dd>
-      <dt>Likes</dt>
-      <dd>{{likes}}</dd>
-      <dt>Photos</dt>
-      <dd>{{photos}}</dd>
+  <article class="profile-card">
+    <div class="profile-card__avatar-wrapper">
+      <img class="profile-card__avatar-image" v-bind:src="avatar" v-bind:alt="alternative" width="96" height="96">
+    </div>
+    <p class="profile-card__title">{{username}} <span class="profile-card__age">{{age}}</span></p>
+    <p class="profile-card__city">{{city}}</p>
+    <dl class="profile-card__list">
+      <div class="profile-card__item">
+        <dt class="profile-card__item-title">Followers</dt>
+        <dd class="profile-card__item-value">{{followers}}</dd>
+      </div>
+      <div class="profile-card__item">
+        <dt class="profile-card__item-title">Likes</dt>
+        <dd class="profile-card__item-value">{{likes}}</dd>
+      </div>
+      <div class="profile-card__item">
+        <dt class="profile-card__item-title">Photos</dt>
+        <dd class="profile-card__item-value">{{photos}}</dd>
+      </div>
     </dl>
   </article>
 </template>
@@ -36,4 +44,5 @@ export default {
 </script>
 
 <style scoped>
+
 </style>

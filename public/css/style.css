@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("../fonts/KumbhSans-Regular.woff2") format("woff2"),
+    url("../fonts/KumbhSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("../fonts/KumbhSans-Bold.woff2") format("woff2"),
+    url("../fonts/KumbhSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --primary-dark-cyan: #19a2ae;
+  --primary-very-dark-desaturated-blue: #2d3248;
+  --primary-dark-grayish-blue: #6a6f81;
+
+  --neutral-dark-gray: #969696;
+}
+
+body {
+  font-family: "Kumbh Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
