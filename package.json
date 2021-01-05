@@ -7,8 +7,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "vue serve ProfileCard.vue",
-    "build": "vue build ProfileCard.vue"
+    "start": "vue serve",
+    "build": "vue build"
   },
   "author": "",
   "license": "ISC"

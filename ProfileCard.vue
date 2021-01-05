@@ -24,17 +24,15 @@
 
 <script>
 export default {
-  data: function () {
-    return {
-      username: 'Victor Crest',
-      age: '26',
-      city: 'London',
-      followers: '80K',
-      likes: '803K',
-      photos: '1.4K',
-      avatar: 'images/image-victor.jpg'
-    };
-  },
+  props: [
+    'username',
+    'age',
+    'city',
+    'followers',
+    'likes',
+    'photos',
+    'avatar'
+  ],
   computed: {
     alternative: function () {
       return 'Photo by ' + this.username;
