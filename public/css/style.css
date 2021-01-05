@@ -17,6 +17,7 @@
 }
 
 :root {
+  --primary-white: #ffffff;
   --primary-dark-cyan: #19a2ae;
   --primary-very-dark-desaturated-blue: #2d3248;
   --primary-dark-grayish-blue: #6a6f81;
@@ -25,9 +26,14 @@
 }
 
 body {
+  padding: 0;
+  margin: 0;
+
   font-family: "Kumbh Sans", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
   line-height: 21px;
+
+  background-color: var(--primary-dark-cyan);
 }
