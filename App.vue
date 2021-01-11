@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app-container">
     <profile-card
       username="Victor Crest"
       age="26"
@@ -22,3 +22,15 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.app-container {
+  padding-top: 173px;
+}
+
+@media (max-width: 375px) {
+  .app-container {
+    padding-top: 149px;
+  }
+}
+</style>

@@ -45,7 +45,6 @@ export default {
 
 .profile-card {
   margin: 0 auto;
-  margin-top: 173px;
   padding-top: 88px;
   width: 350px;
   min-height: 286px;
@@ -58,12 +57,11 @@ export default {
   background-size: 350px 140px;
   background-repeat: no-repeat;
   border-radius: 12px;
-  box-shadow: 1px 2px 1px 0 var(--primary-very-dark-desaturated-blue);
+  box-shadow: 1px 1px 20px 5px var(--primary-dark-transparent-blue);
 }
 
 @media (max-width: 375px) {
   .profile-card {
-    margin-top: 149px;
     width: 326px;
   }
 }
@@ -125,7 +123,7 @@ export default {
   padding-bottom: 20px;
   display: flex;
 
-  border-top: 1px solid var(--neutral-dark-gray);
+  border-top: 1px solid var(--primary-dark-transparent-blue);
 }
 
 .profile-card__item {
